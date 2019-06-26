@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+
+	<h1> Register Page</h1>
+
+
+
+<form action="/backend">
+
+
+		<fieldset>	
+			<legend> Login Credentials</legend>
+			
+			<!-- sample ng clickable yung username -->
+			<label for="Username">Username:</label>
+			<input required type="text" id="Username"><br>	
+			
+			<label for="email"></label>
+			<input required type="email" placeholder="email"><br>
+
+			<label for="password"></label>
+			<input required type="password" placeholder="password"><br>
+		</fieldset>	
+
+
+
+			<fieldset>
+				<legend> Details</legend>
+				<!-- SAMPLE NG WALANG SPECIAL ANYTHING -->
+				Contact Number:
+				<input type="number" value="63"><br>
+
+
+				<label for="Describe yourself"></label>
+				<textarea rows="6" cols="50" placeholder="Describe yourself"></textarea><br>
+				
+				
+				<select>
+					<option>Select Country</option>
+					<option selected>PH</option>
+					<option>US</option>
+					<option>AU</option>
+				</select><br>
+
+				<!-- Pag radio type isa lang puwede piliin -->
+				Gender:
+				<input type="radio" name="gender" checked>Male
+				<input type="radio" name="gender">Female
+				<input type="radio" name="gender">Others <br>
+				Interest
+				<input checked type="checkbox" name="interests">Sports
+				<input type="checkbox" name="interests">Books
+				<input type="checkbox" name="interests">Boys
+				<input type="checkbox" name="interests">Girls
+				<input type="checkbox" name="interests">Pets
+				<br>
+				<input type="submit" value="Register">
+
+			</fieldset>
+
+
+</form>
+
+<!-- 			<div>
+
+				<a href=""><h2>Contact us</h2></a>
+
+			</div>
+ -->
+
+</body>
+</html>
