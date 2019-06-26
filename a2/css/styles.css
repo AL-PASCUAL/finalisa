@@ -1,0 +1,44 @@
+
+/*universal selector*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+/*syntax: selector {declaration block}*/
+/*declaration block: value;*/
+
+h1 {
+
+	color: orangered;
+	font-size: 50px;
+}
+
+
+p {
+
+	background-color: pink;
+}
+
+/*Id selector uses #*/
+
+#p1 {
+	background-color: green;
+}
+
+/*class selector uses .*/
+
+
+.right {
+	float: right;
+}
+
+
+/*attribute selector*/
+
+[type="text"] {
+	color: blue;
+	background-color: yellow;
+}
