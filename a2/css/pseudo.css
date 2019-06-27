@@ -1,0 +1,53 @@
+* {
+
+	margin: 0;
+	padding: 0;
+}
+
+
+
+/*pseudo classes - targets specific 'state of element'*/
+
+
+/*link when not yet visited*/
+a:link {
+
+	color: green;
+}
+
+/*link when visited*/
+a:visited {
+
+	color: black;
+}
+
+
+h1:hover, a:hover {
+
+	color: blue;
+}
+
+
+h1:active, a:active {
+
+	color: yellow;
+}
+
+/*pseudo element*/
+
+#Section2::first-line {
+	color: red;
+}
+
+p::first-letter {
+	font-size: xx-large;
+}
+
+h1::after {
+	content: "B";
+}
+
+
+h2::selection {
+	color: yellow;
+}

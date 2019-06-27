@@ -17,10 +17,10 @@ h1 {
 }
 
 
-p {
+/*p {
 
 	background-color: pink;
-}
+}*/
 
 /*Id selector uses #*/
 
@@ -41,4 +41,31 @@ p {
 [type="text"] {
 	color: blue;
 	background-color: yellow;
+}
+
+
+/*adjacent sibling selector + */
+
+/*
+#child1 + p {
+background-color: green;
+
+}*/
+
+/*general sibling selector ~  */
+/*#child1 ~ div > p {
+background-color: green;
+
+}*/
+
+/*child selector > */
+
+
+
+/*descendant selector white space */
+
+
+#parent div {
+background-color: green;
+
 }
