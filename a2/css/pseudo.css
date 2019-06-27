@@ -51,3 +51,9 @@ h1::after {
 h2::selection {
 	color: yellow;
 }
+
+
+input:focus {
+
+	background-color: red;
+}
