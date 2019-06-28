@@ -5,6 +5,16 @@
 	font-family: 'Open Sans', sans-serif;
 }
 
+/*-----------------------------------------------------*/
+
+
+h1 {
+	padding: 30px 0px 1px 0px;
+	text-align: center;
+}
+
+
+/*-----------------------------------------------------*/
 
 
 img {
@@ -13,6 +23,8 @@ img {
 	border: 1px solid white;
 }
 
+
+/*-----------------------------------------------------*/
 
 
 .mmm {
@@ -30,11 +42,6 @@ img {
 	border-radius: 30px;
 }
 
-
-
-
-
-
 .propic2 {
 	margin: 3px;
 	padding: 30px;
@@ -45,14 +52,14 @@ img {
 
 /*---------------------------------------------------*/
 
-
-
 p {
 	
 	color: white;
 
-
 }
+
+/*-----------------------------------------------------*/
+
 #container {
 
 margin: 0 30%;
@@ -60,26 +67,10 @@ border: 1px solid grey;
 
 }
 
-h1	{
-	text-align: center;
-}
-
-.right {
-	/*margin-left: 90%;*/
-	text-align: right; 
-}
 
 h6 {
 	text-align: center;
 }
-
-.pleft {
-	text-align: right;
-}
-
-
-
-
 
 
 .to {
@@ -87,10 +78,8 @@ h6 {
 	margin: 0px 5px;
 }
 
-h1 {
-	padding: 30px 0px 1px 0px;
-}
 
+/*---------------------------------*/
 
 .textt {
 	margin: 0px 30px;
@@ -102,6 +91,9 @@ textarea {
 	width: 100%;
 }
 
+
+
+/*------------------------------*/
 
 button {
 
