@@ -1,0 +1,20 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+
+#warn {
+	width: 35%;
+}
+
+#win {
+	width: 75%;
+}
+
+#info {
+
+	width: 95%;
+}
