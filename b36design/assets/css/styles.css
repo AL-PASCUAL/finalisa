@@ -1,0 +1,128 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+}
+
+.landdd {
+	height: 100vh;
+}
+
+.enter {
+	font-size: 200%;
+	color: white;
+}
+
+
+
+#jumbo-land {
+	height: 100vh;
+	background-image: url(../images/4.jpg);
+	
+	border-radius: 0; 
+	padding-top: 20%;
+}
+
+.jumbotron h1 {
+	font-family: 'Roboto', sans-serif;
+	color: #f2f2f2;
+}
+
+
+.jumbotron hr {
+	background-color: white;
+}
+
+
+.btn a {
+	text-decoration: none;
+	color: #fff;
+}
+
+
+
+
+/*--------------------------------------------------------------home---*/
+
+.ggg {
+
+	padding: 0px;
+	background-image: url(../images/5.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+
+
+.hiss {
+	background-color: rgba(46, 49, 49, .40);
+	margin: 50px;
+	color: white;
+}
+
+.hiss h1 {
+	padding: 10px 0;
+}
+
+
+
+
+
+/*-----------------------------------menu------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---MEDIA QUERIES-----------------------400px-----*/
+
+@media only screen and (max-width: 400px) 
+{
+
+body {
+	background-color: black;
+	height: 100vh;
+}
+
+#wideland {
+	display: none;
+}
+
+}
+
+/*-------------------401px--960px--------------------*/
+
+@media only screen and (min-width: 401px) and (max-width: 960px)
+{
+
+
+	
+}
+
+
+/*-------------------401px--960px--------------------*/
+
+@media only screen and (min-width: 960px)
+{
+
+.dip {
+	display: none;
+
+}
