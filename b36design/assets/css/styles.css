@@ -1,3 +1,4 @@
+
 * {
 	margin: 0;
 	padding: 0;
@@ -6,105 +7,131 @@
 }
 
 
-.lanlo {
-	height: 200px;
+/*---------------------navbar------------------------------------*/
+
+#navbar {
+	background-color: #FBB016;
+	height: 10vh;
+}
+
+#navbar a {
+	color: #30251F;
+	font-size: 19px;
+	font-weight: bold;
 }
 
 
-
-.landdd {
-	height: 80vh;
+#navbar a:hover {
+	color: 	#EBECEC;
+	transition: .30s;
 }
 
-.enter {
-	font-size: 200%;
-	color: white;
-}
-
-
-
-#jumbo-land {
-	height: 100vh;
-	background-image: url(../images/4.jpg);
+#navbar .active {
+	color: 	#EBECEC;
 	
-	border-radius: 0; 
-	padding-top: 20%;
 }
 
-.jumbotron h1 {
-	font-family: 'Roboto', sans-serif;
-	color: #f2f2f2;
-}
-
-
-.jumbotron hr {
-	background-color: white;
+#logo {
+	position: absolute;
+	top: -31%;
+	left: 0;
+	height: 25vh;
 }
 
 
-.btn a {
-	text-decoration: none;
-	color: #fff;
-}
+/*----------------------------------history-----------------------------*/
 
 
-
-
-/*--------------------------------------------------------------home---*/
-
-.ggg {
-
-	padding: 0px;
+#home-background {
 	background-image: url(../images/5.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 100vh;
+	height: 90vh;
+	margin: 0;
 }
 
-
-.hiss {
-	background-color: rgba(46, 49, 49, .40);
-	margin: 50px;
+#history {
+	background-color: rgba(48,37,31, .75);
 	color: white;
-}
-
-.hiss h1 {
-	padding: 10px 0;
+	margin-top: 100px;
 }
 
 
+/*-------------------------------------------------contact-----------------*/
 
 
+#contact-background {
+	background-image: url(../images/9.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 90vh;
+	margin: 0;
+}
 
-/*-----------------------------------navbar------------------------------*/
+.usog {
+	margin-left: 79px;
+	margin-top: 19px;
+}
 
-
-
-nav {
-
+.regi {
+	text-align: center;
 	background-color: #FBB016;
-	padding: 0 16px;
+	width: 100%;
+	color: white;
+	border-radius: 5px;
+	padding: 4px;
+	margin-top: 20px;
+	
 }
 
 
-nav img {
-	height: 20vh;
-}
-
-.lef {
-	float: left;
-	height: 150px;
-	position: fixed;
-	top: -15px;
-	left: 11px;
-	z-index: 1;
+.sms {
+	height: 111px;
+	width: 100%;
+	border-radius: 5px;
 }
 
 
-.nav-link {
-	color: #302521;
+
+/*--------------------------------------------------------------------footer*/
+
+footer img {
+	height: 19px;
+	padding-left: 31px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -129,14 +156,7 @@ nav img {
 @media only screen and (max-width: 400px) 
 {
 
-body {
-	background-color: black;
-	height: 100vh;
-}
 
-#wideland {
-	display: none;
-}
 
 }
 
@@ -155,7 +175,6 @@ body {
 @media only screen and (min-width: 960px)
 {
 
-.dip {
-	display: none;
+
 
 }
