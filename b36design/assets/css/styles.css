@@ -6,6 +6,25 @@
 	font-family: 'Raleway', sans-serif;
 }
 
+/*-----------------landingpage----------------*/
+
+#landing {
+	color: 50vh;
+}
+
+
+.logo {
+
+	height: 100px; 
+}
+
+
+
+
+
+
+
+
 
 /*---------------------navbar------------------------------------*/
 
@@ -98,10 +117,15 @@
 /*--------------------------------------------------------------------footer*/
 
 footer img {
-	height: 19px;
+	height: 5vh;
 	padding-left: 31px;
 }
 
+footer {
+	height: 50vh;
+	padding: 35vh;
+	margin: 0;
+}
 
 
 
