@@ -5,8 +5,15 @@
 	font-family: 'Raleway', sans-serif;
 }
 
+
+.lanlo {
+	height: 200px;
+}
+
+
+
 .landdd {
-	height: 100vh;
+	height: 80vh;
 }
 
 .enter {
@@ -70,8 +77,34 @@
 
 
 
-/*-----------------------------------menu------------------------------*/
+/*-----------------------------------navbar------------------------------*/
 
+
+
+nav {
+
+	background-color: #FBB016;
+	padding: 0 16px;
+}
+
+
+nav img {
+	height: 20vh;
+}
+
+.lef {
+	float: left;
+	height: 150px;
+	position: fixed;
+	top: -15px;
+	left: 11px;
+	z-index: 1;
+}
+
+
+.nav-link {
+	color: #302521;
+}
 
 
 
