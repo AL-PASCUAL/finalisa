@@ -27,14 +27,15 @@
 
 <!-- -------------------------------------------------------------------- -->
 
-<nav id="navbar" class="navbar navbar-expand-lg navbar-dark">
+
+<nav id="navbar" class="navbar navbar-expand-lg navbar-dark sticky-top">
 	
 	<a href="index.html" class="navbar-brand"><img id="logo" src="assets/images/logo.png"></a>
 
 	<!-- -----------------------burger----------------- -->
 
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav">
-			<span class="navbar-toggler-icon"></span>
+			<span id="burger" class="navbar-toggler-icon"></span>
 		</button>
 
 	<!-- -----------------------burger----------------- -->
@@ -42,7 +43,7 @@
 
 
 		<div id="navbar-nav" class="collapse navbar-collapse">
-			<ul class="navbar-nav ml-auto navigate">
+			<ul class="navbar-nav ml-auto navigate text-center">
 			
 				<li class="nav-item">
 					<a href="home.html" class="nav-link">Home</a>
@@ -67,47 +68,37 @@
 
 <!-- -------------------------------------------------------------------- -->
 
-<div id="contact-background" class="row">  <!-- --------contact us ---- -->
+<div class="container-fluid p-0">
+<div id="contact-background" class="row">
+	<div class="col-12 col-md-12 col-lg-4 usog">
+		<form>
+			<div id="conbox" class="form-group animated fadeInLeft">
 
-	<div class="usog col-md-5">
+				<h3 id="sms">Contact Us</h3>
+				
+				<label for="username"></label>
+				<input type="text" id="username" class="form-control" placeholder="Full Name:">
 
-		<div id="history" class="card">
-			<div class="card-body">
+				<label for="email"></label>
+				<input type="email" id="email" class="form-control" placeholder= Email:>
+
+				<div class="form-group">
+					<label for="message"></label>
+					<textarea id="message" class="form-control" placeholder="How can we help?"></textarea>
+				</div>
+
+				<button id="botn" class="btn btn-block">Submit</button>
 
 
-				<h3 class="card-title m-0">Contact Us</h3>
+			<iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15447.231352852199!2d121.02203099713468!3d14.552978813312036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd5c96efeb15320f9!2sMcDonald&#39;s+Paseo+Center!5e0!3m2!1sfil!2sph!4v1562227789230!5m2!1sfil!2sph" allowfullscreen></iframe>
 
-				<section id="register" class="register"> <!-- ------chat -->
-							
-					<form>
-						<!-- --------NAME------------- -->
 
-						<label for="name"></label>
-
-							<input id="username" type="text" class="form-control" placeholder="Name">
-
-						<!-- ------------EMAIL------------ -->
-
-						<label for="name"></label>
-							<input id="name" type="text" class="form-control" placeholder="Email:">
-						
-						<!-- ------------Message------------- -->
-							
-						<label classfor="name"></label>
-							<input type="text" cols="40" rows="5" class="sms" placeholder="Message">
-						
-						<!-- ------------BUTTON-------------- -->
-
-						<button class="regi">Send</button>
-					</form>
-
-				</section><!-- ------chat -->
+				<h6 id="sms" class="text-center">Address: 2615 Unit G, Brooklyn, New York 1900 Philippines</h6>
 
 			</div>
-		</div>	
-	</div>
+		</form>
+	</div> 
 </div>
-
 <!-- -------------------------------------------------------------------- -->
 
 
@@ -117,45 +108,13 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!-- -----------------------------------footer------------- -->
+<footer class="footer text-middle">
+<span id="fut">Copyright © 2019 All rights reserved.</span>
+	<a href="https://www.facebook.com/isaunakapeatbp"><img src="assets/images/facebook.png"></a>
+	<a href="https://www.instagram.com/isaunakapeatbp/"><img src="assets/images/instagram.png"></a>
+	<img src="assets/images/whatsapp.png">
+</footer>
 
 
 
@@ -169,6 +128,8 @@
 
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
 
 
 </body>

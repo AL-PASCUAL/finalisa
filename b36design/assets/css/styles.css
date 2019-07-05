@@ -9,9 +9,14 @@
 /*-----------------landingpage----------------*/
 
 #landing {
-	color: 50vh;
+	height: 100vh;
+	padding: 0;
+
 }
 
+#imge {
+	height: 100vh;
+}
 
 .logo {
 
@@ -50,13 +55,19 @@
 	
 }
 
-#logo {
+#logo1 {
 	position: absolute;
-	top: -31%;
+	top: -23%;
 	left: 0;
 	height: 25vh;
 }
 
+#logo {
+	position: absolute;
+	top: -23%;
+	left: 0;
+	height: 25vh;
+}
 
 /*----------------------------------history-----------------------------*/
 
@@ -90,29 +101,39 @@
 }
 
 .usog {
-	margin-left: 79px;
-	margin-top: 19px;
+	margin-left: 159px;	
 }
 
-.regi {
-	text-align: center;
+#conbox {
+	background-color: rgba(48,37,31, .75);
+	height: 73vh;
+	margin-top: 7vh;
+	padding: 15px;
+	border-radius: 5px;
+}
+
+
+#botn {
 	background-color: #FBB016;
+	margin-bottom: 20px;
+}
+
+#sms {
+	margin: 0;
+	padding: 0;
+	color: #EBECEC;
+
+}
+
+#mapa {
 	width: 100%;
-	color: white;
-	border-radius: 5px;
-	padding: 4px;
-	margin-top: 20px;
+	border: 0;
+	display: block;
+	height: 15vh;
+	padding-bottom: 20px;
 	
+
 }
-
-
-.sms {
-	height: 111px;
-	width: 100%;
-	border-radius: 5px;
-}
-
-
 
 /*--------------------------------------------------------------------footer*/
 
@@ -181,8 +202,97 @@ footer {
 {
 
 
+	/*--------------------------landing -------------*/
+
+
+	#landing {
+		height: 31vh;
+	}
+
+	#imge {
+	width: 100vh;
+	height: 31vh;
+	}
+
+
+	#intro {
+		display: none;
+	}
+
+
+	/*----------------navbar--------*/
+
+	#navbar-nav {
+		background-color: #FBB016;
+		padding-left: 199px;
+
+	}
+
+
+
+	#navbar {
+		padding: 0
+	}
+
+	#burger {
+		padding-right: 100px;
+	}
+
+
+	/*--------------------history----------*/
+
+	#home-background {
+
+	height: 105vh;
+
+	}
+
+
+	/*----------contact------------------*/
+
+	.usog {
+		margin: 19px 0 0 0;
+	}
+
+	#conbox {	
+		height: 100%;	
+		margin: 57px 0 0 0;
+	}
+
+
+	#contact-background {
+		height: 100vh;
+	}
+
+
+
+	/*------------footer--------*/
+
+	footer {
+		padding: 0 0 0 17px;
+		margin: 19px 0 0 19px;
+		height: 13vh;
+	}
+
+	#fut {
+		display: block;
+		margin-bottom: 11px;
+	}
+
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*-------------------401px--960px--------------------*/
 
@@ -190,13 +300,133 @@ footer {
 {
 
 
+	/*--------------------------landing -------------*/
+
+
+	#landing {
+		height: 31vh;
+	}
+
+	#imge {
+	width: 100vh;
+	height: 31vh;
+	}
+
+
+	#intro {
+		display: none;
+	}
+
+
+	/*----------------nav-----------*/
+	#navbar-nav {
+		background-color: #FBB016;
+		/*padding-left: 400px;*/
+	}
+
+
+
+	#navbar {
+		padding: 0
+	}
+
+	#burger {
+		padding-right: 100px;
+	}
+
+	/*--------------------history----------*/
+
+	#home-background {
+
+	height: 100vh;
+
+	}
+
+
+
+	/*----------contact------------------*/
+
+	.usog {
+		margin: 39px 0 0 0;
+	}
+
+	#conbox {	
+		height: 100%;	
+		
+	}
+
+	#contact-background {
+		height: 100%;
+		padding: 0;
+	}
+
+
+	/*------------footer--------*/
+	footer {
+		padding: 0 0 0 71px;
+		margin: 19px 0 0 19px;
+		height: 13vh;
+	}
+
+	#fut {
+		display: block;
+		margin-bottom: 11px;
+	}
+
+
 	
-}
+} /*-------------------------401--960--END--------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*-------------------401px--960px--------------------*/
 
-@media only screen and (min-width: 960px)
+@media only screen and (min-width: 961px)
 {
 
 
